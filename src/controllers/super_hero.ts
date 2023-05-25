@@ -76,15 +76,6 @@ const updateHero = async(req: Request, res: Response) => {
     return;
   }
 
-  // const { nickname, real_name, origin_description, superpowers, catch_phrase, images } = req.body;
-  // const isCorrectValue = Object.values(req.body).every(x => typeof x === 'string' && x.length > 0);
-
-  // if (!isCorrectValue) {
-  //   res.sendStatus(422);
-
-  //   return;
-  // }
-
   const updatedHero = await HeroServices.updateHero(heroId, req.body);
 
   res.send(updatedHero);
