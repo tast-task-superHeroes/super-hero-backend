@@ -2,7 +2,7 @@
 
 ## start 
 #### git clone https://github.com/tast-task-superHeroes/super-hero-backend.git
-#### nom install
+#### npm install
 #### npm start
 
 
