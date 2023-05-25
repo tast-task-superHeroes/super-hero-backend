@@ -6,7 +6,7 @@ import cors from 'cors';
 import { router } from './routes/super_hero';
 
 
-const PORT = process.env || 4152;
+const PORT = process.env.PORT || 4152;
 export const app = express();
 
 app.use(cors())
