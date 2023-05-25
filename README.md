@@ -21,3 +21,6 @@
 ##### delete hero = /heroes/heroId - method DELETE
 ##### create hero = /heroes = method POST
 ##### update hero = /heroes/heroId = method PATCH
+
+#### Also i created some test for the main requests
+##### If you want run test write "npm run test" in your command line
