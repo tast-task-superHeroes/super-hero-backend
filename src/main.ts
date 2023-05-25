@@ -16,4 +16,4 @@ app.use('/heroes', router)
 
 initDb();
 
-app.listen(PORT)
+app.listen({port: PORT})
